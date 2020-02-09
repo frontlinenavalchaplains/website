@@ -1,0 +1,13 @@
+{
+  "name": "flnc",
+  "version": "1.0.0",
+  "description": "Front Line Naval Chaplains",
+  "main": "index.js",
+  "repository": "https://github.com/frontlinenavalchaplains/website",
+  "author": "Paul Springett",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
