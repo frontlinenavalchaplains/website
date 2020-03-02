@@ -15,7 +15,7 @@ title: Front Line Naval Chaplains
     <div class="container max-w-5xl md:mx-auto lg:mt-8">
       <nav class="flex items-center justify-between flex-wrap bg-navy p-6 rounded-sm mb-6">
         <div class="flex items-center flex-shrink-0 text-white mr-10">
-          <a href="/" class="logo">
+          <a href="{{ '/' }}" class="logo">
             <img src="{{ '/img/logo-white.svg' | url }}" alt="Front Line Naval Chaplains"/>
           </a>
         </div>
@@ -27,14 +27,17 @@ title: Front Line Naval Chaplains
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-base lg:flex-grow">
+            <a href="{{ '/' }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-100 mr-4">
+              Home
+            </a>
             <a href="{{ '/about' }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-100 mr-4">
               About the charity
             </a>
             <a href="{{ '/exhibition' }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-100 mr-4">
               Falklands exhibition
             </a>
-            <a href="{{ '/' }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-100">
-              Contact
+            <a href="{{ '/contact' }}" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-100">
+              Contact us
             </a>
           </div>
           <div>
@@ -46,6 +49,10 @@ title: Front Line Naval Chaplains
       </nav>
 
       {{ content | safe }}
+
+      <footer class="mt-12 mb-6 p-4 bg-gray-200 text-sm text-center rounded-sm">
+        Front Line Naval Chaplains is a registered charity, no. 1187195
+      </footer>
     </div>
   </body>
 </html>
