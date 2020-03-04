@@ -1,5 +1,6 @@
 const configure = (config) => {
   config.addPassthroughCopy("img");
+  config.addPassthroughCopy("files");
   config.addPassthroughCopy("css");
 
   return {

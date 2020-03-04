@@ -24,12 +24,26 @@ Install required packages
 yarn install
 ```
 
+### Development
+
+Run the local dev server
+
+```
+yarn serve
+```
+
 ### Build
 
 Build site with 11ty
 
 ```
-npx @11ty/eleventy
+yarn build
+```
+
+Compile TailwindCSS
+
+```
+yarn build-css
 ```
 
 ## Deploy
