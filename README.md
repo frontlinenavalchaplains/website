@@ -6,7 +6,7 @@
 
 ### Dependencies
 
-* Yarn
+* NPM
 * Node 10+
 
 ### Install
@@ -21,7 +21,7 @@ cd website/
 Install required packages
 
 ```
-yarn install
+npm install
 ```
 
 ### Development
@@ -29,7 +29,7 @@ yarn install
 Run the local dev server
 
 ```
-yarn serve
+npm run serve
 ```
 
 ### Build
@@ -37,13 +37,13 @@ yarn serve
 Build site with 11ty
 
 ```
-yarn build
+npm build
 ```
 
 Compile TailwindCSS
 
 ```
-yarn build-css
+npm build-css
 ```
 
 ## Deploy
