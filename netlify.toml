@@ -1,5 +1,7 @@
 [[redirects]]
-    from = "/magazine"
-    to = "/pennant"
-    status = 301
-    force = false
+from = "/magazine"
+to = "/pennant"
+
+[[redirects]]
+from = "/magazine/submission-guidelines"
+to = "/pennant/submission-guidelines"
