@@ -1,0 +1,5 @@
+[[redirects]]
+    from = "/magazine"
+    to = "/pennant"
+    status = 301
+    force = false
